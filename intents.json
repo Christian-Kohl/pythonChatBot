@@ -1,0 +1,15 @@
+{"intents": [
+	{
+		"tag": "greeting",
+		 "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Gday", "Good day", "What's up", "What is up"],
+		 "responses": ["Hello! I am good", "Good to see you again", "Hi, how can I help you"],
+		 "context_set": ""
+	},
+	{
+		"tag": "work", 
+		"patterns": ["What work do I have to do?", "What's on the agenda today?"],
+		"responses": ["This is what I found on today's todolist", "Here is your plan for today"],
+		"context_set": ""
+	}
+ ]
+}
